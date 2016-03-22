@@ -16,8 +16,6 @@ url: "http://bryansills.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Bryan Sills'
-bio: >
-  BLARGGGGGGGGGGGGGGGGGGGGGGGGGG
 author_image: "/assets/images/author.jpg"
 twitter_username: bryansills
 github_username:  bryansills
