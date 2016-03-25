@@ -10,7 +10,7 @@ title: Bryan Sills
 email: bryan@bryansills.com
 description: >
   Awesome site description here
-logo: "/assets/images/logo.jpg"
+logo: "/assets/images/author.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bryansills.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
