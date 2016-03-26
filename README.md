@@ -1,5 +1,7 @@
 # [bryansills.ninja](http://www.bryansills.ninja)
 
+My simple little blog.
+
 ## Credits
 
 This is essentially forked from [Amplify](https://github.com/ageitgey/amplify). Most of my work has been removing stuff that I don't want and small layout tweaks.
