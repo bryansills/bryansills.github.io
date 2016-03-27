@@ -3,6 +3,10 @@
 
 $grey-color:       #828282;
 
+* {
+  @include box-sizing(border-box);
+}
+
 .icon {
 
     > svg {
@@ -59,61 +63,31 @@ body {
 }
 
 .site-header {
-  position: relative;
-  width: 100%;
-  max-width: 700px;
-  margin: 16px auto 0 auto;
-  @include box-sizing(border-box);
+  width: 700px;
+  margin: 16px auto;
   @include respond-to(800) {
-    padding: 0 $rs * 1;
+    padding: 0 $rs;
   }
+  
+  a {
+    display: flex;
+    align-items: center;
 
-  .page-links {
-      display: block;
-      position: absolute;
-      top: 10px;
-      right: $rs;
-      font-weight: 200;
-      font-style: normal;
-      font-size: 18px;
-      line-height: 30px;
-
-      a {
-        text-decoration: none;
-        color: #999999;
-        &:hover {
-          color: #333333;
-        }
-      }
-  }
-
-}
-
-.blog-header {
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0;
-  @include box-sizing(border-box);
-
-  .blog-title {
-    margin-bottom: 8px;
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -2px;
     outline: 0;
-    line-height: 50px;
-    word-break: break-word;
-    color: #333333;
-  }
-  .blog-description {
-    font-size: 28px;
-    margin: 0 0 20px;
-    padding: 0;
-    line-height: 1.2;
-    color: #666666;
-    font-weight: 300;
+
+    text-decoration: none;
+    color: #999999;
+    &:hover {
+      color: #333333;
+    }
+
+    .logo {
+      border-radius: 100%;
+      margin-right: 16px;
+    }
   }
 }
 

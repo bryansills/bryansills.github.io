@@ -5,7 +5,7 @@ layout: post
 
 Hey guys! This is a test of my new blog, so I am gonna copy a blog post from Jake Wharton for testing a few things.
 
-<amp-img width="600" height="500" layout="responsive" src="http://lorempixel.com/600/500/transport"></amp-img>
+<amp-img width="600" height="500" layout="responsive" src="http://loremflickr.com/600/500/puppy"></amp-img>
 
 Features feel how I imagine children would. They are relatively easy to spawn but require a lengthy committment and constant care. Picasso's API would be nothing short of a Greek tragedy if we humored every feature request that we received. Finding the right balance of what is appropriate to add and what isn't is a constant struggle.
 
@@ -224,5 +224,5 @@ This is a long post and there isn't exactly a nice neat bow to tie it all togeth
  2. Exhausting multiple implementations and solutions to a problem is essential for ironing out the best approach. This was a journey to the final conclusion and it's one we frequently make for most of the changes we make to Picasso and all of our open source libraries. Not only can we be sure that we reached a good solution, but we also are able to defend and justify our decisions.
 
 If you come upon any other bright ideas for applying Palette into Picasso I'd love to hear about them. Otherwise get playing with the fantastic Palette library today and keep an eye out for Picasso 2.4 in the next few days!
-<amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/600/300/transport"></amp-img>
+<amp-img width="600" height="300" layout="responsive" src="http://loremflickr.com/600/300/kitten"></amp-img>
 
