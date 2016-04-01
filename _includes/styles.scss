@@ -31,8 +31,9 @@ amp-img {
 
 $rs: 16px;
 
-$font-serif: 'Merriweather',Georgia,Cambria,"Times New Roman",Times, serif;
-$font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
+$font-serif: 'Merriweather', Georgia, Cambria, "Times New Roman", Times, serif;
+$font-sans: 'Open Sans', "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-mono: 'Source Code Pro', monospace;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -459,6 +460,7 @@ body {
 
 pre,
 code {
+  font-family: $font-mono;
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
