@@ -1,6 +1,19 @@
 <footer class="site-footer">
+  <p>
+    <span>
+      {% if site.twitter_username %}
+        {% include icon-twitter.html username=site.twitter_username %}
+      {% endif %}
+    </span>
+    <span>
+      {% if site.github_username %}
+        {% include icon-github.html username=site.github_username %}
+      {% endif %}
+    </span>
+  </p>
+
   <div class="inner">
-    <a href="mailto:{{ site.email }}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a> &bull; Made with <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a>
+    &copy; {{ site.time | date: '%Y' }} &bull; <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a> &bull; Made with <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a>
   </div>
 
   <amp-analytics type="googleanalytics" id="analytics1">
