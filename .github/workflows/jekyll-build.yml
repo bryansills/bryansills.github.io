@@ -1,4 +1,4 @@
-name: Pushes out the latest changes in the repository to Github Pages
+name: Pushes out the latest changes in the repository to the 'gh-pages' git branch
 
 on:
   push:
