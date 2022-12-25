@@ -3,7 +3,7 @@ name: Deploys the latest changes on the 'gh-pages' git branch to Github Pages
 on:
   push:
     branches:
-      - gh-pages
+      - main
   workflow_dispatch:
 
 permissions:
@@ -16,6 +16,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Sleep for 5 minutes to give the build process enough time
+        run: sleep 300
+        shell: bash
+
       - uses: actions/checkout@v3
         with:
           ref: 'gh-pages'
