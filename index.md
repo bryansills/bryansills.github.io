@@ -1,5 +1,5 @@
 ---
-title: site.title
+title: Basic page?
 layout: default
 ---
 

@@ -1,9 +1,7 @@
-### Built settings ###
+### Build settings ###
 
-url: "https://bryansills.github.io"
-baseurl: "/"
+exclude: [README.md]
 
 ## Site metadata ##
 
-title: Hello World!
-description: Let's get the basics down
+title: Bryan Sills's Dumb Webiste
