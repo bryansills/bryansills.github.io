@@ -1,5 +1,6 @@
 ---
 title: site.title
+layout: default
 ---
 
 {{ site.description }}
@@ -10,4 +11,8 @@ How about this?
 
 ## Bigger header?
 ### Slightly smaller?
-Let's see if it is fully automated
+Let's see if it is fully ~automated~
+
+With *formatting!*
+
+More **formatting!**
