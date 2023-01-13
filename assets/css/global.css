@@ -128,6 +128,29 @@ h3 {
   display: block;
 }
 
+.post ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.post li {
+  display: grid;
+  grid-template-columns: 20px auto;
+  justify-content: start;
+  align-items: center;
+  font-size: var(--size-500);
+}
+
+.post li + li {
+  margin-top: 0.5em;
+}
+
+.post li::before {
+  content: "→";
+  font-size: var(--size-300);
+  color: #999;
+}
+
 @media (min-width: 45em) {
   h1 {
     font-size: var(--size-900);
