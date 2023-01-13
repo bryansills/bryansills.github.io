@@ -13,6 +13,7 @@ body {
   color: #252525;
   line-height: 1.5;
   font-family: Georgia, serif;
+  padding-bottom: 2rem;
 }
 
 :focus {
@@ -114,6 +115,14 @@ h3 {
 .post h2:has(+ time) { margin-bottom: 0; }
 
 .post h2 + time {
+  margin-top: 0;
+  font-style: italic;
+  display: block;
+}
+
+.post h1:has(+ time) { margin-bottom: 0; }
+
+.post h1 + time {
   margin-top: 0;
   font-style: italic;
   display: block;

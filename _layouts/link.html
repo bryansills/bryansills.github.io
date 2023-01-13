@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  </head>
+  <body>
+    <article class="[ post ] [ flow ]">
+      <h1>{{ page.title }}</h1>
+      <time>{{ page.date | date: "%A %B %e, %Y" }}</time>
+      {{ content }}
+    </article>
+  </body>
+</html>
