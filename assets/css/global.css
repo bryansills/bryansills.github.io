@@ -6,11 +6,16 @@
   --size-700: 2.36rem;
   --size-800: 3.15rem;
   --size-900: 4.2rem;
+  --background-color: rgb(255, 220, 197);
+  --text-color: rgba(16, 13, 12, 0.95);
+  --text-color-80: rgba(32, 26, 23, 0.8);
+  --text-color-70: rgba(32, 26, 23, 0.7);
+  --accent-color: rgba(136, 22, 68, 0.5)
 }
 
 body {
-  background: #f3f3f3;
-  color: #252525;
+  background: var(--background-color);
+  color: var(--text-color);
   line-height: 1.5;
   font-family: Georgia, serif;
   padding-bottom: 2rem;
@@ -109,7 +114,7 @@ h3 {
 
 .post h2 {
   padding-top: 0.5em;
-  border-top: 4px dotted rgba(0, 0, 0, 0.2);
+  border-top: 4px dotted var(--accent-color);
 }
 
 .post h2:has(+ time) { margin-bottom: 0; }
@@ -117,6 +122,7 @@ h3 {
 .post h2 + time {
   margin-top: 0;
   font-style: italic;
+  color: var(--text-color-80);
   display: block;
 }
 
@@ -125,6 +131,7 @@ h3 {
 .post h1 + time {
   margin-top: 0;
   font-style: italic;
+  color: var(--text-color-80);
   display: block;
 }
 
@@ -148,7 +155,7 @@ h3 {
 .post li::before {
   content: "→";
   font-size: var(--size-300);
-  color: #999;
+  color: var(--text-color-70);
 }
 
 @media (min-width: 45em) {
