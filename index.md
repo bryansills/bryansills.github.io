@@ -5,7 +5,7 @@ layout: default
 
 # {{ site.title }}
 
-This is just a simple, static site where I can share stuff that I think is neat.
+This is just a simple, static site where I can share stuff.
 
 ## Contact Me
 
