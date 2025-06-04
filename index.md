@@ -19,3 +19,4 @@ I am easy to find! Here are other places on the internet where you can reach me:
 - [Instagram: @bryansills](https://www.instagram.com/bryansills/)
 - [Github: @bryansills](https://www.github.com/bryansills)
 - [LinkedIn: Bryan 🤖 Sills](https://www.linkedin.com/in/bryan%F0%9F%A4%96-sills-b6717a82)
+- Email: bryan at bryansills dot com
