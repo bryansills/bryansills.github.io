@@ -10,3 +10,4 @@ Gemfile.lock
 .jekyll-metadata
 build/
 _site
+.idea/

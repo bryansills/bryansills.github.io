@@ -1,6 +1,18 @@
 ### Build settings ###
 
-exclude: [README.md]
+exclude:
+  - README.md
+  - 'node_modules'
+  - 'scripts'
+  - 'vendor'
+  - out
+  - capture
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - LICENSE
+  - CNAME
 
 ## Site metadata ##
 

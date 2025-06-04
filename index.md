@@ -7,6 +7,10 @@ layout: default
 
 This is just a simple, static site where I can share stuff.
 
+## Important Links
+
+If you are looking for the solutions to the 5th edition of Android Programming: The Big Nerd Ranch Guide, [click here](/android-book).
+
 ## Contact Me
 
 I am easy to find! Here are other places on the internet where you can reach me:
